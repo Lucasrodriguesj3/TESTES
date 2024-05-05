@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 80px ;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+button:hover {
+opacity: 0.5;
+
+}
+
+#Pedra {
+    background-color: rgb(83, 146, 189);
+}
+
+#Papel {
+    background-color: rgb(245, 241, 6);
+}
+
+#Tesoura {
+    background-color: rgb(28, 241, 8);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.youpoint span {
+    color: rgb(113, 167, 212);
+}
+
+.machinepoint span {
+    color: rgb(228, 32, 6);
+}
